@@ -1,0 +1,33 @@
+# Ignorar entornos virtuales
+.venv/
+venv/
+myenv/
+
+# Archivos de configuración de entorno
+.env
+*.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de logs
+*.log
+logs/
+debug.log
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.swp
+
+# Dependencias de Python
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Base de datos SQLite (si la usas)
+*.sqlite3
+*.db
