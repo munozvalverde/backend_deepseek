@@ -31,3 +31,5 @@ poetry.lock
 # Base de datos SQLite (si la usas)
 *.sqlite3
 *.db
+
+credentials/service_account.json
